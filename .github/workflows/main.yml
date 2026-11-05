@@ -1,0 +1,12 @@
+name: FirstWorkflow
+
+on: push
+
+jobs:
+  hello-world:
+  runs-on: ubuntu-latest
+  setps:
+  -name: Hello world
+  run: echo" hello world"
+  
+
