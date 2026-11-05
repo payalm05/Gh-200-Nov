@@ -4,9 +4,9 @@ on: push
 
 jobs:
   hello-world:
-  runs-on: ubuntu-latest
-  setps:
-  -name: Hello world
-  run: echo" hello world"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello World
+        run: echo "Hello from GH-200 session"
   
 
